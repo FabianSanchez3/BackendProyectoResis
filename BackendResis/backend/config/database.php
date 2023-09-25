@@ -82,7 +82,7 @@ return [
             'driver' => 'sqlsrv',
             'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', '10.1.0.11'),
-            'port' => env('DB_PORT', '8080'),
+            'port' => env('DB_PORT', '1433'),
             'database' => env('DB_DATABASE', 'Pruebas_chCerdos_Rodrigo19_00hrs'),
             'username' => env('DB_USERNAME', 'sa'),
             'password' => env('DB_PASSWORD', 'B1Admin'),
